@@ -22,7 +22,7 @@ var barChart = svg.selectAll("rect")
         return d; 
     })
     .attr("width", barWidth - barPadding)
-    .style("fill", "steelblue") //enter a color here
+    .style("fill", "red") //enter a color here
     .attr("transform", function (d, i) {
         var translate = [barWidth * i, 0]; 
         return "translate("+ translate +")";
