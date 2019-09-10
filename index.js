@@ -2,7 +2,7 @@
 var dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160];
 
 var svgWidth = 500;  
-var svgHeight = 400
+var svgHeight = 400;
 var barPadding = 10;
 var barWidth = (svgWidth / dataset.length);
 
